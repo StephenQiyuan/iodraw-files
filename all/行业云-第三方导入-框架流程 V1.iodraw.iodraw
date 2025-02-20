@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="UWDi-3ABdMn2ypPfH3bS">
-    <mxGraphModel dx="2607" dy="1264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -363,6 +363,44 @@
             <Array as="points">
               <mxPoint x="1190" y="1873" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o3EeChyI4-u3SLYp4Ota-74" value="发现瓶颈" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2190" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="o3EeChyI4-u3SLYp4Ota-75" value="技术优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="2190" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="o3EeChyI4-u3SLYp4Ota-76" value="重新测试" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="368" y="2190" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="o3EeChyI4-u3SLYp4Ota-77" value="验收失败" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2289" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="o3EeChyI4-u3SLYp4Ota-78" value="需求回溯" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="2289" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="o3EeChyI4-u3SLYp4Ota-79" value="方案调整" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="368" y="2289" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="o3EeChyI4-u3SLYp4Ota-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="o3EeChyI4-u3SLYp4Ota-74" target="o3EeChyI4-u3SLYp4Ota-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o3EeChyI4-u3SLYp4Ota-81" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="o3EeChyI4-u3SLYp4Ota-75" target="o3EeChyI4-u3SLYp4Ota-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o3EeChyI4-u3SLYp4Ota-82" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="o3EeChyI4-u3SLYp4Ota-77" target="o3EeChyI4-u3SLYp4Ota-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o3EeChyI4-u3SLYp4Ota-83" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="o3EeChyI4-u3SLYp4Ota-78" target="o3EeChyI4-u3SLYp4Ota-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
