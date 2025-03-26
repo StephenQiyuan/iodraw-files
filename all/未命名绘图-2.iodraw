@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="UWDi-3ABdMn2ypPfH3bS">
-    <mxGraphModel dx="1674" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1266" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -647,39 +647,39 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rmpuZqQq1gx93BDTrYFX-63" value="测试系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="20" y="4250" width="150" height="344" as="geometry" />
+          <mxGeometry x="680" y="4010" width="150" height="344" as="geometry" />
         </mxCell>
         <mxCell id="rmpuZqQq1gx93BDTrYFX-64" value="资源管理平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="220" y="4250" width="150" height="344" as="geometry" />
+          <mxGeometry x="880" y="4010" width="150" height="344" as="geometry" />
         </mxCell>
         <mxCell id="rmpuZqQq1gx93BDTrYFX-65" value="许可服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="420" y="4250" width="150" height="344" as="geometry" />
+          <mxGeometry x="1080" y="4010" width="150" height="344" as="geometry" />
         </mxCell>
         <mxCell id="rmpuZqQq1gx93BDTrYFX-66" value="请求资源分配" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="rmpuZqQq1gx93BDTrYFX-63" target="rmpuZqQq1gx93BDTrYFX-64">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="204" y="4351" />
+              <mxPoint x="864" y="4111" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rmpuZqQq1gx93BDTrYFX-67" value="验证临时令牌" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="rmpuZqQq1gx93BDTrYFX-64" target="rmpuZqQq1gx93BDTrYFX-65">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="404" y="4397" />
+              <mxPoint x="1064" y="4157" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rmpuZqQq1gx93BDTrYFX-68" value="返回资源配额" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="rmpuZqQq1gx93BDTrYFX-65" target="rmpuZqQq1gx93BDTrYFX-64">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="407" y="4443" />
+              <mxPoint x="1067" y="4203" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rmpuZqQq1gx93BDTrYFX-69" value="按需分配容器集群" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="rmpuZqQq1gx93BDTrYFX-64" target="rmpuZqQq1gx93BDTrYFX-63">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="207" y="4489" />
+              <mxPoint x="867" y="4249" />
             </Array>
           </mxGeometry>
         </mxCell>
