@@ -603,6 +603,49 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="rmpuZqQq1gx93BDTrYFX-54" value="ISV申请材料包" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="4399" width="162" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="rmpuZqQq1gx93BDTrYFX-55" value="集成场景说明书" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="232" y="4250" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="rmpuZqQq1gx93BDTrYFX-56" value="测试用例清单" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="4349" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="rmpuZqQq1gx93BDTrYFX-57" value="历史兼容性报告" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="232" y="4448" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="rmpuZqQq1gx93BDTrYFX-58" value="数据治理承诺书" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="232" y="4547" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="rmpuZqQq1gx93BDTrYFX-59" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="rmpuZqQq1gx93BDTrYFX-54" target="rmpuZqQq1gx93BDTrYFX-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="4275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rmpuZqQq1gx93BDTrYFX-60" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="rmpuZqQq1gx93BDTrYFX-54" target="rmpuZqQq1gx93BDTrYFX-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="4374" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rmpuZqQq1gx93BDTrYFX-61" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=0.99;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="rmpuZqQq1gx93BDTrYFX-54" target="rmpuZqQq1gx93BDTrYFX-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="4473" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rmpuZqQq1gx93BDTrYFX-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=0.99;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="rmpuZqQq1gx93BDTrYFX-54" target="rmpuZqQq1gx93BDTrYFX-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="4572" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
